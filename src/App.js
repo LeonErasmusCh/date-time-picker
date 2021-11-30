@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-    <div className="container my-5 p-5 text-center rounded-3 w-75 pickerBackround">
+    <div className="container my-5 p-5 text-center w-75 pickerBackround">
       <h4 className="text-light p-3">Select date and time</h4>
       
       <input type="date" className="input mx-2" onSelect={captureDate}></input>
