@@ -29,6 +29,10 @@ code {
   padding-bottom: 2px;
 }
 
+.lightGreen{
+  color: lightseagreen
+}
+
 ::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }

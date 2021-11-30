@@ -27,7 +27,8 @@ function App() {
       <input type="date" className="input mx-2" onSelect={captureDate}></input>
 
       <select id="mySelect" className="input time mx-2" onChange={captureTime}>
-        <option defaultValue disabled>10:00 to 11:00</option>
+      <i className="far fa-clock"></i>
+        <option defaultValue disabled>10:00 to 11:00 </option>
         <option  type="text" value="11:00 to 12:00">11:00 to 12:00</option>
         <option value="12:00 to 13:00">12:00 to 13:00</option>
         <option value="13:00 to 14:00">13:00 to 14:00</option>
@@ -39,8 +40,8 @@ function App() {
       </select>
   
    <div className="row my-4 text-light">
-     <h6>Date: {date}</h6>
-     <h6>Time: {time}</h6>
+     <h6><span className="lightGreen">Date: </span>{date} </h6>
+     <h6><span className="lightGreen">Time: </span>{time} </h6>
    </div>
    </div>
    </>
