@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pickerBackround {
+  background-color:#035956;
+}
+
+.input{
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: lightseagreen;
+  background-color: #035956;
+  color:whitesmoke
+  
+}
+
+.time{
+  padding-bottom: 2px;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
